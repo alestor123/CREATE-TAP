@@ -4,7 +4,7 @@
   "description": "This is a simple code for adding test to your project",
   "main": "App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard && node test.js | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,19 @@
   "bugs": {
     "url": "https://github.com/alestor123/CREATE-TAP/issues"
   },
-  "homepage": "https://github.com/alestor123/CREATE-TAP#readme"
+  "standard": {
+    "ignore": [
+      "test-dir/"
+    ]
+  },
+  
+  "homepage": "https://github.com/alestor123/CREATE-TAP#readme",
+  "devDependencies": {
+    "standard": "^16.0.3",
+    "tap": "^15.0.9",
+    "tap-spec": "^5.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1"
+  }
 }

@@ -1,0 +1,12 @@
+{
+  "name": "test-dir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test.js | tap-spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+} 
