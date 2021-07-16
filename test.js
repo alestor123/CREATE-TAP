@@ -1,3 +1,4 @@
+const tap = require('tap')
 const ct = require('./App')
 const { existsSync } = require('fs')
 const tstpkg = require('./test-dir/package.json')
